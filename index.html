@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <div id="logo">
+        <h1>Go<span>HMC</span></h1>
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#home">HOME</a></li>
+          <li><a class="nav-link" href="#features">FEATURES</a></li>
+          <li><a class="nav-link" href="#support">SUPPORT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="email-form-box">
+          <h2>Cuide da saúde da sua <span>família.</span></h2>
+          <p>
+            Consulte com mais de 10.000 profissionais de saúde sobre suas
+            enfermidades.
+          </p>
+
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <input id="submit" type="submit" value="GET STARTED" />
+          </form>
+        </div>
+
+        <div id="watch-video">
+          <img src="play-btn.svg" alt="Play" />
+          <a href="#support"
+            >Continue seguro com GoHMC <span>Veja o vídeo</span></a
+          >
+        </div>
+      </section>
+
+      <section id="features">
+        <img src="phone-mockup.svg" alt="phone mockup" />
+        <div id="feature-box">
+          <h2>Continue seguro com Go<span>HMC.</span></h2>
+          <p>
+            24x7 Support and user friendly mobile platform to bring healthcare
+            to your fingertips. Signup and be a part of the new health culture.
+          </p>
+          <button>Features</button>
+        </div>
+      </section>
+
+      <section id="support">
+        <div id="card">
+          <ul id="graphics">
+            <li class="list-card">2m <span>Users</span></li>
+            <li class="list-card">78 <span>Countries</span></li>
+            <li class="list-card">10,000+<span>Medical Experts</span></li>
+          </ul>
+        </div>
+
+        <div id="support-box">
+          <h2>Fale com <span>especialistas</span></h2>
+          <p>
+            Book appointments or submit queries into thousands of forums
+            concerning health issues and prevention against noval Corona Virus.
+          </p>
+          <button>Features</button>
+        </div>
+
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube.com/embed/OwPZIhTHDUk"
+          title="Medical NCV"
+          frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>
